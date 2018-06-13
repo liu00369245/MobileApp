@@ -1,0 +1,5 @@
+<!--pages/numcount/numcount.wxml-->
+<button bindtap='countDec'>-</button>
+<text>{{count}}</text>
+<button bindtap='countAdd'>+</button>
+<button bindtap='getData'>点击发送请求</button>

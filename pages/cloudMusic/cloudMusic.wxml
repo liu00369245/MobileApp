@@ -1,0 +1,11 @@
+<!--pages/cloudMusic/cloudMusic.wxml-->
+<view id='musicList'>
+  <view class='list' 
+  wx:for="{{musicList}}" 
+  wx:key="index"
+  bindtap="songPage"
+  data-id="{{item._id}}">
+    <text>{{item.listName}}</text>
+  </view>
+</view>
+<text>1111</text>

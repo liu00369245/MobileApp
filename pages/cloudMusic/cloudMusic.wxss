@@ -1,0 +1,10 @@
+/* pages/cloudMusic/cloudMusic.wxss */
+#musicList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.list{
+  width: 30%;
+  border: 1rpx solid saddlebrown;
+}

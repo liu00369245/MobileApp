@@ -1,0 +1,7 @@
+<!--pages/song/song.wxml-->
+<view class='songDiv'>
+  <view class='song' wx:for="{{songList}}" wx:key="index">
+  <text>{{item.songName}}</text>
+  <button data-url='{{item.songUrl}}' bindtap='playSong'>播放</button>
+  </view>
+</view>

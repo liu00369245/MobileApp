@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/numcount/numcount",
+    "pages/cloudMusic/cloudMusic",
+    "pages/song/song",
+    "pages/getUserInfo/getUserInfo",
+    "pages/getMap/getMap"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/numcount/numcount",
+        "text": "计数器"
+      },
+      {
+        "pagePath": "pages/getUserInfo/getUserInfo",
+        "text": "信息"
+      },
+      {
+        "pagePath": "pages/getMap/getMap",
+        "text": "位置"
+      }
+    ]
+  }
+}

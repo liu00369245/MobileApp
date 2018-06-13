@@ -1,0 +1,10 @@
+/* pages/song/song.wxss */
+.songDiv{
+  width: 100%;
+}
+.song{
+  width: 100%;
+  border: 1rpx solid saddlebrown;
+  display: flex;
+  justify-content:space-between;
+}
